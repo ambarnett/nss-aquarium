@@ -11,7 +11,8 @@ export const database = {
             food: "crustaceans",
             size: 3,
             from: "Florida Keys",
-            species: "Fish"
+            species: "Fish",
+            image: "./img/fish_costume.jpg"
         }
     ]
 }

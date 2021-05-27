@@ -1,5 +1,5 @@
 // Import the object that contains the fish array
-import {database} from 'database.js'
+import {database} from './database.js'
 
 export const FishList = () => {
    
