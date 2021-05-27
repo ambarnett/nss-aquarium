@@ -1,5 +1,11 @@
-.opening_title{
+header{
+    display: flex;
+}
+.headline{
     font: 8em sans-serif;
+}
+.header-logo{
+
 }
 main{
     border: solid black;
@@ -10,16 +16,17 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-    flex: 3;
+    flex: 2;
+    border: solid hotpink 5px;
 }
 .fish_list{
     padding: 5px;
     list-style-position: inside;
     border: solid seagreen 10px;
-    display: flex;
+    /* display: flex; */
     /* flex-wrap: wrap; */
     /* justify-content: space-around; */
-    /* flex-direction: row; */
+    flex-direction: column;
 }
 .fish_list_title{
     text-align: center;
@@ -32,6 +39,11 @@ main{
 }
 .list_of_fish_facts{
 
+}
+.quotes-locations-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 .quotes_from_martin{
     text-align: center;
