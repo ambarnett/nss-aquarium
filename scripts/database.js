@@ -4,49 +4,15 @@
 * representation as an object. Then add all the other
 * fish to the collection.
 */
-const database = {
+export const database = {
     fish: [
         {
             name: "Bart",
             food: "crustaceans",
             size: 3,
             from: "Florida Keys",
-            species: "Fish"
-        },
-        {
-            name: "Nemo",
-            food: "snails",
-            size: 2,
-            from: "Florida Keys",
-            species: "Fish"
-        },
-        {
-            name: "Red",
-            food: "shrimp",
-            size: 5,
-            from: "Florida Keys",
-            species: "Lobster"
-        },
-        {
-            name: "Fred",
-            food: "crustaceans",
-            size: 3,
-            from: "Florida Keys",
-            species: "Fish"
-        },
-        {
-            name: "Jack",
-            food: "worms",
-            size: 6,
-            from: "French Broad River",
-            species: "Large Mouth Bass"
-        },
-        {
-            name: "Tim",
-            food: "crustaceans",
-            size: 3,
-            from: "Florida Keys",
-            species: "Fish"
+            species: "Fish",
+            image: "./img/fish_costume.jpg"
         }
     ]
 }
