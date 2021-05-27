@@ -13,6 +13,22 @@ export const database = {
             from: "Florida Keys",
             species: "Fish",
             image: "./img/fish_costume.jpg"
+        },
+        {
+            name: "Bart",
+            food: "crustaceans",
+            size: 3,
+            from: "Florida Keys",
+            species: "Fish",
+            image: "./img/fish_costume.jpg"
+        },
+        {
+            name: "Bart",
+            food: "crustaceans",
+            size: 3,
+            from: "Florida Keys",
+            species: "Fish",
+            image: "./img/fish_costume.jpg"
         }
     ]
 }

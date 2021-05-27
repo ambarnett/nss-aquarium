@@ -19,7 +19,7 @@ main{
     flex: 2;
     border: solid hotpink 5px;
 }
-.fish_list{
+.fish_card{
     padding: 5px;
     list-style-position: inside;
     border: solid seagreen 10px;
@@ -37,8 +37,8 @@ main{
     text-align: center;
     flex: 1;
 }
-.list_of_fish_facts{
-
+.fish__image.image--card {
+    width: 153px;
 }
 .quotes-locations-box{
     display: flex;
