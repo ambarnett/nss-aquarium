@@ -1,0 +1,83 @@
+.opening_title{
+    font: 8em sans-serif;
+}
+main{
+    border: solid black;
+    display: flex;
+}
+.main_fish_info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 3;
+}
+.fish_list{
+    padding: 5px;
+    list-style-position: inside;
+    border: solid seagreen 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+}
+.fish_list_title{
+    text-align: center;
+}
+.fish{
+    border: solid darkslategrey 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+}
+.list_of_fish_facts{
+
+}
+.quotes_from_martin{
+    text-align: center;
+    border: solid seagreen 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.quotes_title{
+    text-align: center;
+}
+.quote{
+    border: solid darkslategrey;
+}
+.locations_of_fish{
+    text-align: center;
+    border: solid seagreen 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.locations_title{
+    text-align: center;
+}
+.location{
+    border: solid darkslategrey;
+    flex-basis: 10%;
+}
+.opening_title{
+    text-align: center;
+    size: 10px;
+}
+.tank_tips{
+    flex: 0.5;
+    border: saddlebrown solid 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+body{
+    background-color:lightskyblue;
+}
+.fish img{
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+}
